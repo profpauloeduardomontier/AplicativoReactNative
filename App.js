@@ -6,6 +6,7 @@ const App = () => {
 
   return (
     <View style={styles.container}>
+    <Text style={styles.ola}>Olá Mundo</Text>
       <TextInput
         style={styles.input}
         placeholder="Digite um valor"
@@ -36,6 +37,9 @@ const styles = StyleSheet.create({
   saida: {
     fontSize: 48,
   },
+  ola: {
+    fontSize: 50,
+  }
 });
 
 export default App;
